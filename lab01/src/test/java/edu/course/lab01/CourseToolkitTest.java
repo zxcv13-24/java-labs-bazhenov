@@ -19,5 +19,12 @@ class CourseToolkitTest {
         boolean result = CourseToolkit.isEven(7);
 
         assertFalse(result);
+
+    }
+    @Test
+    void returnsTrueZero() {
+        boolean result = CourseToolkit.isEven(0);
+
+        assertTrue(result);
     }
 }
